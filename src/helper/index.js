@@ -1,0 +1,1 @@
+export const getDomain = url => url.split('/')[2]

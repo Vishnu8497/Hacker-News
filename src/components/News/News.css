@@ -1,0 +1,98 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 60px;
+}
+
+.newsNo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.newsInfo {
+    margin: 25px 20px;
+}
+
+.newsHeader {
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.newsUrl {
+    color: #6b7280;
+}
+
+.newsDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsTime {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.user {
+    position: relative;
+    top: 5px;
+}
+
+.newsAuthor {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #20A4EE;
+}
+
+.commentsLogo {
+    margin-top: 10px;
+    color: #FF6F00;
+}
+
+.commentsNo {
+    margin-left: 10px;
+    color: #FF6F00;
+}
+
+.bookmark {
+    cursor: pointer;
+    left: 500px;
+    top: -40px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+.commentsDetails {
+    cursor: pointer;
+    width: max-content;
+}
+
+@media screen and (max-width: 1000px) {
+    .bookmark {
+        left: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bookmark {
+        left: 250px;
+    }
+}

@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Play&family=Vazirmatn:wght@700&display=swap');
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
-}
-
 .wrapper{
   width: 100%;
-  max-width: 1440px;
   overflow-x: hidden;
   overflow-y: auto;
   margin: 0 auto;
 }
 
 .navbar{
+  position: fixed;
   width: 100%;
+  z-index: 10;
+  top: 0;
   height: 80px;
   padding: 30px;
-  background-color: #01061D;
+  background-color: #0E4892;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +35,14 @@
   margin: 0 15px;
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
+  color: #D9D2C3;
+}
+
+.navLinks {
+    color: #D9D2C3;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .navbar .toggle-icon{
@@ -50,7 +51,7 @@
 
 @media(max-width: 768px){
   .navbar{
-    position: relative;
+    position: fixed;
     transition: 0.5s all ease-in-out;
   }
 
